@@ -55,3 +55,9 @@ variable "region" {
   description = "private data subnet az2 cidr"
   type        = string
   }
+
+  # security groups variable
+  variable "ssh_locaton" {
+  description = "my IP address"
+  type        = string
+  }
