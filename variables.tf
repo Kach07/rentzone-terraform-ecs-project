@@ -93,5 +93,31 @@ variable "region" {
   description = "sub domain name"
   type        = string
   }
+  
+  # S3 variable
+  variable "env_file_bucket_name" {
+  description = "S3 bucket name"
+  type        = string
+  }
 
+  variable "env_file_name" {
+  description = "env file name"
+  type        = string
+  }
 
+  # ecs variables
+  variable "architecture" {
+  description = "ecs cpu architecture"
+  type        = string
+  }
+
+  variable "container_image" {
+  description = "container image uri"
+  type        = string
+  }
+
+  # route 53 variables
+  variable "record_name" {
+  description = "sub domain name"
+  type        = string
+  }
